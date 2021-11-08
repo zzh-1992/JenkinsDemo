@@ -22,6 +22,6 @@ public class Index {
 
     @GetMapping("/")
     public String index() {
-        return "Hello " +  LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        return "Hello Grapefruit " +  LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
     }
 }
